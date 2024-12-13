@@ -1,3 +1,8 @@
+//Non riesco ad allineare la seconda card di RadioStatio in modalità lg. Ho provato a mettere il componente dentro una colonna singola ma il problema non si è risolto. Ho provato a vedere margini ecc ma nulla... quando mi lasci il feedback potresti dirmi come avrei potuto fare? 
+//I colori non corrispondono a quelli del mockup, non ho avuto tempo da dedicare alla massima fedeltà cromatica...! Mi dispiace perché avrei voluto fare un bel compito, purtroppo credo di essere ancora molto lenta... (non ho mangiato nè fatto altro, sono al pc fissa da dopo il benchmark! ^^'' aiuto!)
+//domanda fuori dai denti: secondo te ho qualche possibilità di assunzione in qualche azienda? Ho mollato tutto per questo corso perché volevo cambiare lavoro... mi piace tuttto queello cche aabbiamo fatto ma mi sentto m olto non all'altezza    ^^'
+//intanto studio.
+
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import MyNavbar from './components/MyNavbar'
