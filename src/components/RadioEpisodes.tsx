@@ -7,7 +7,7 @@ interface ImagesProps {
 
 const RadioEpisodes = (props: ImagesProps) => {
     return (
-        <Col xs={4}><Card className="m-3 border border-0 ps-0 ms-0">
+        <Col xs={4}><Card className="m-3 border border-0 ps-0 ms-0" style={{ borderRadius: '15px !important' }}>
             <Card.Img variant="top" src={props.src} />
             <p className="mb-0 bg-dark text-secondary small">{props.description}</p>
 

@@ -16,7 +16,7 @@ const RadioStation = (props: RadioStationProps) => {
 
         <h5 className="text-light">NUOVA STAZIONE RADIO</h5>
         <p className="text-light mb-0 pb-1 bg-dark ">{props.title}</p>
-        <Card className=" border border-0 rounded-bottom">
+        <Card className=" border border-0" style={{ borderRadius: '15px !important' }}>
             <Card.Img variant="top" src={props.src} />
 
         </Card>
