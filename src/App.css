@@ -33,3 +33,7 @@ body{
 .background{
    background-color: rgb(17, 14, 14);
 }
+
+.p{
+   padding-bottom:10px !important
+}
