@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { Card, Col } from "react-bootstrap"
-import { Artist, Track, Album } from '../types/IAlbum'
+import { Track } from '../types/IAlbum'
 
 
 const NewMusic = () => {
@@ -33,10 +33,10 @@ const NewMusic = () => {
             {
                 albums.map((a) => {
                     return (
-                        <Col xs={3} key={a.id} className="m-3">
-                            <Card>
-                                <Card.Img className="" variant="top" src={a.album.cover_small} />
-                                <p>{a.title}</p>
+                        <Col xs={3} key={a.id} className="m-3 ms-0 ps-0">
+                            <Card className="border border-0">
+                                <Card.Img className="" variant="top" src={a.album.cover_medium} />
+                                <p className="bg-dark text-secondary small mb-0 ">{a.title}</p>
 
 
                             </Card></Col>)

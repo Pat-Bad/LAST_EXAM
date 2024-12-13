@@ -1,4 +1,4 @@
-import { Card, Col } from "react-bootstrap"
+import { Card } from "react-bootstrap"
 
 
 
@@ -13,13 +13,13 @@ interface RadioStationProps {
 const RadioStation = (props: RadioStationProps) => {
 
     return (<>
-        <Col xs={6} className="mb-5">
-            <h5 className="text-light">NUOVA STAZIONE RADIO</h5>
-            <p className="text-light mb-0">{props.title}</p>
-            <Card >
-                <Card.Img variant="top" src={props.src} />
 
-            </Card></Col>
+        <h5 className="text-light">NUOVA STAZIONE RADIO</h5>
+        <p className="text-light mb-0 pb-1 bg-dark ">{props.title}</p>
+        <Card className=" border border-0 rounded-bottom">
+            <Card.Img variant="top" src={props.src} />
+
+        </Card>
     </>
     )
 }

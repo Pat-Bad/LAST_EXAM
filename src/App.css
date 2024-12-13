@@ -3,3 +3,33 @@
    border-radius: 5px !important;
    float:'bottom' !important
 }
+
+.slider{
+   height:5px !important;
+   width: 50px !important;
+   color:white !important;
+   position:relative !important;
+}
+
+.circle{
+   height:4px !important;
+   width:4px !important;
+   position:relative !important;
+   bottom:10px !important;
+   left:5px !important
+}
+
+body{
+  
+   background-color:dark !important
+}
+
+.button{
+   width:200px !important;
+   margin-top:2px !important;
+   
+}
+
+.background{
+   background-color: rgb(17, 14, 14);
+}
